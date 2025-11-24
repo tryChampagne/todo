@@ -1,0 +1,32 @@
+.circle-container-mgr{
+    display: block;
+    border: 1px red solid;
+    height:100vh;
+    width: 100vw;
+
+}
+
+.circle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    /* border: 1px green dashed; */
+    margin:100px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 40px;
+
+}
+
+/* #middle-circle{
+    align-items: center;
+} */
